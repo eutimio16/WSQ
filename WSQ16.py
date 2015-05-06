@@ -21,7 +21,7 @@ def car(file):
 	average_high= sumhigh/cars
 	return(average_price, average_citympg, average_high)
 	
-f= open("93cars.dat.txt")
+f= open("93cars.dat.txt", "r")
 (a,b,c) = car(f)
 a= str(a)
 b= str(b)
